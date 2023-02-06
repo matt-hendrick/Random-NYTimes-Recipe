@@ -7,14 +7,16 @@
           Go to Random Recipe
         </button>
         <button class="button" (click)="generateRandomRecipeList()">
-          Generate a list of 5 random recipes
+          Generate a List of 5 Random Recipes
         </button>
       </div>
     </div>
     <div class="recipe-list">
-      <div *ngFor="let item of recipeList">
-        <a href="{{ item.URL }}">{{ item.Title }}</a>
-      </div>
+      <ol>
+        <li *ngFor="let item of recipeList">
+          <a href="{{ item.URL }}">{{ item.Title }}</a>
+        </li>
+      </ol>
     </div>
   </div>
 </div>
