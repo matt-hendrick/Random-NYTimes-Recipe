@@ -18,9 +18,7 @@ export class AppComponent {
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(URLList[Math.floor(Math.random() * URLList.length)]);
-  }
+  ngOnInit() {}
 
   public generateRandomRecipeList() {
     this.recipeList = [];
