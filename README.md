@@ -1,27 +1,7 @@
-# RandomNytimesRecipe
+# Random NYTimes Recipe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+[random-nytimes-recipe.web.app](https://random-nytimes-recipe.web.app/) is a TypeScript/Angular webapp that generates links to a random New York Times Cooking recipe. The webapp allows either clicking on a button that redirects the user to a random cooking recipe or clicking on a button that generates a list of 5 random recipe links.
 
-## Development server
+This repo includes the Golang scraper that was used to scrape the +20,000 recipe URLs listed by the [NYTimes Cooking sitesmaps](https://www.nytimes.com/sitemaps/new/cooking.xml.gz).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This is a simple project I wrote in a couple days because I wanted a means of randomizing my cooking/recipe selection.
